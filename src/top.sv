@@ -58,7 +58,7 @@ assign tif.pwm[1] = fan2_if.pwm;
 assign tif.pwm[2] = fan3_if.pwm;
 
 
-///JUNK for the linter
+///JUNK for the linte
 always_comb begin 
     if(fan1_if.duty || fan2_if.duty  || fan3_if.duty )begin 
     end
