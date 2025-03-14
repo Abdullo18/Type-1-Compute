@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Mar 14 03:40:10 2025
+# Process ID: 2599190
+# Current directory: /home/shay/a/rabdubae/Type-1-Compute
+# Command line: vivado -mode tcl
+# Log file: /home/shay/a/rabdubae/Type-1-Compute/vivado.log
+# Journal file: /home/shay/a/rabdubae/Type-1-Compute/vivado.jou
+# Running On: cparch13.ecn.purdue.edu, OS: Linux, CPU Frequency: 3400.000 MHz, CPU Physical cores: 4, Host memory: 16363 MB
+#-----------------------------------------------------------
+restart
+ERROR: [Simulator 45-6] No active Vivado Simulator simulation.  To use this command you must first start a simulation using Vivado Simulator.

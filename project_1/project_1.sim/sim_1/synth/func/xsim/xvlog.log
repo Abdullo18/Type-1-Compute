@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shay/a/rabdubae/Type-1-Compute/project_1/project_1.sim/sim_1/synth/func/xsim/top_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core
+INFO: [VRFC 10-311] analyzing module flex_counter
+INFO: [VRFC 10-311] analyzing module flex_counter_0
+INFO: [VRFC 10-311] analyzing module flex_counter_1
+INFO: [VRFC 10-311] analyzing module pwm
+INFO: [VRFC 10-311] analyzing module sensors
+INFO: [VRFC 10-311] analyzing module sensors__parameterized0
+INFO: [VRFC 10-311] analyzing module sensors__parameterized1
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,11 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /package/eda/xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L uvm -L simprims_ver -L secureip --snapshot top_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'tif' on this module [/home/shay/a/rabdubae/Type-1-Compute/testbenches/top_tb.sv:37]
+ERROR: [VRFC 10-8530] module 'FDCE_default' is ignored due to previous errors [/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/FDCE.v:28]
+ERROR: [VRFC 10-8530] module 'FDPE_default' is ignored due to previous errors [/wrk/ci/prod/2023.2/rdi_builds/continuous/2023_10_13_4029153/data/verilog/src/unisims/FDPE.v:28]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

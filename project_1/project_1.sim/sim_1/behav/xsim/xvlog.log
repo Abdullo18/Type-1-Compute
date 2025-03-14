@@ -1,8 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shay/a/rabdubae/Type-1-Compute/src/flex_counter.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module flex_counter
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/shay/a/rabdubae/Type-1-Compute/testbenches/flex_counter_tb.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module flex_counter_tb
-ERROR: [VRFC 10-1247] port connections cannot be mixed ordered and named [/home/shay/a/rabdubae/Type-1-Compute/testbenches/flex_counter_tb.sv:15]
-ERROR: [VRFC 10-1280] procedural assignment to a non-register nrst is not permitted, left-hand side should be reg/integer/time/genvar [/home/shay/a/rabdubae/Type-1-Compute/testbenches/flex_counter_tb.sv:21]
-ERROR: [VRFC 10-1280] procedural assignment to a non-register nrst is not permitted, left-hand side should be reg/integer/time/genvar [/home/shay/a/rabdubae/Type-1-Compute/testbenches/flex_counter_tb.sv:23]
-ERROR: [VRFC 10-8530] module 'flex_counter_tb' is ignored due to previous errors [/home/shay/a/rabdubae/Type-1-Compute/testbenches/flex_counter_tb.sv:5]

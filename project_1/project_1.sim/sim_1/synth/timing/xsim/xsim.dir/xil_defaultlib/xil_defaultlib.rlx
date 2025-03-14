@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/shay/a/rabdubae/Type-1-Compute/include/top_if.vh,1741995145,verilog,,,,top_if,,,,,,,,
+/home/shay/a/rabdubae/Type-1-Compute/project_1/project_1.sim/sim_1/synth/timing/xsim/top_tb_time_synth.v,1741996053,verilog,,,,core;flex_counter;flex_counter_0;flex_counter_1;glbl;pwm;sensors;sensors__parameterized0;sensors__parameterized1;top,,uvm,../../../../../../Mac Files for T1C;../../../../../../include;../../../../../../testbenches;../../../../../project_1.srcs/sim_1/new;../../../../../project_1.srcs/sources_1/new,,,,,
+/home/shay/a/rabdubae/Type-1-Compute/testbenches/top_tb.sv,1741995743,systemVerilog,,,/home/shay/a/rabdubae/Type-1-Compute/include/top_if.vh,top_tb,,uvm,../../../../../../Mac Files for T1C;../../../../../../include;../../../../../../testbenches;../../../../../project_1.srcs/sim_1/new;../../../../../project_1.srcs/sources_1/new,,,,,
