@@ -1,5 +1,5 @@
 # compile verilog/system verilog design source files
-sv xil_defaultlib  --include "../../../../../include" --include "../../../../project_1.srcs/sources_1/new" --include "../../../../../testbenches" --include "../../../../project_1.srcs/sim_1/new" --include "../../../../../Mac Files for T1C" \
+sv xil_defaultlib  --include "../../../../../include" \
 "../../../../../src/core_control.sv" \
 "../../../../../src/flex_counter.sv" \
 "../../../../../src/pwm.sv" \
