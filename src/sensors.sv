@@ -49,6 +49,33 @@ module sensors (input logic CLK, nRST, sensors_if.sensors sif);
         // /
         
         end
+
 flex_counter sensor1(CLK, nRST, fcif);
+
+logic uart_busy, uart_tx_line, start_uart;
+logic [6:0] temp_data;
+uart_tx tx_inst (
+        .clk(CLK),
+        .nRST(nRST),
+        .start(start_uart),
+        .temp(temp_data),
+        .uart_tx_line(uart_tx_line),
+        .busy(uart_busy)
+    );
+
+
+
+always_ff @(posedge CLK, negedge nRST) begin
+        if (!nRST) begin 
+            start_uart <= 0;
+            temp_data <= '0;  
+            end
+        else if (!uart_busy && fcif.rollover_flag == 1) begin 
+            temp_data <= fcif.temperature; 
+            start_uart <= 1;  
+            end
+        else
+            start_uart <= 0;  
+    end
 endmodule
 

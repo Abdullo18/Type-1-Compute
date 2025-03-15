@@ -36,14 +36,7 @@ top DUT (
     .nRST(rst),  // Use `rst` consistently
     .tif(tif)  // Connect the interface
 );
-task drive_sensor( input logic [1:0] fan_speed, input logic [31:0] num_clk, input integer test_num);
- 
-   #(CLK_PERIOD * num_clk);
 
-   
-//    info = "pwm verification";
-//  $display("Test %d, %s",test_num, info);
- endtask
 initial begin
     // Initialize signals
     clk = 1'b0;
@@ -55,20 +48,8 @@ initial begin
     rst = 1'b1;  // Deassert reset
     # (CLK_PERIOD * 10); // Wait for 10 clock cycles
 
-
-
-    //TEST CASE 1       
-    drive_sensor(3,0, test_num++);
-    //TEST CASE 2
-    drive_sensor(1,1000, test_num++);
-    //TEST CASE 3
-    drive_sensor(2,100, test_num++);
-    //TEST CASE 4
-    drive_sensor(1,100, test_num++);
-    //TEST CASE 5
-    drive_sensor(2,100, test_num++);    
-    //TEST CASE 6
-    drive_sensor(3,100, test_num++);       
+    #(CLK_PERIOD * 10000);
+    
     $finish;
 end
 

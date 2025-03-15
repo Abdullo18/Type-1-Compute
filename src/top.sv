@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+//`timescale 1ns / 1ps
 
 `include "core_control_if.vh"
 `include "work_mng_types_pkg.vh"

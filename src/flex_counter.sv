@@ -36,9 +36,9 @@ always_ff @( posedge CLK, negedge nRST ) begin
 end
 
 //// DO mapping of PWM to CLK_DIV
-parameter SLOW_CLK = 10;
-parameter MEDIUM_CLK = 5;
-parameter FAST_CLK = 3;
+parameter SLOW_CLK = 30;
+parameter MEDIUM_CLK = 18;
+parameter FAST_CLK = 12;
 always_comb begin 
     clk_div = 1;
         case(fcif.fan_speed)
