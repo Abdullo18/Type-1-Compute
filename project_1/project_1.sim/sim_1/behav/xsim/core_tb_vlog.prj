@@ -1,12 +1,7 @@
 # compile verilog/system verilog design source files
 sv xil_defaultlib  --include "../../../../../include" \
 "../../../../../src/core_control.sv" \
-"../../../../../src/flex_counter.sv" \
-"../../../../../src/pwm.sv" \
-"../../../../../src/sensors.sv" \
-"../../../../../src/top.sv" \
-"../../../../../src/uart_tx.sv" \
-"../../../../../testbenches/top_tb.sv" \
+"../../../../../testbenches/core_tb.sv" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"
